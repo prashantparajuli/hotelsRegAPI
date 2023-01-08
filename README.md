@@ -4,7 +4,7 @@
 ---
 #### Endpoints:
 ---
-##### To register a user:
+##### To register a user:<br>
 Send `POST` request to `localhost:3000/api/v1/auth/register` 
 ```
 {
@@ -25,7 +25,7 @@ Send `POST` request to `localhost:3000/api/v1/auth/login`
 }
 ```
 ##### For registering a hotel:
-You must be logged in to register a hotel so, use the bearer token:
+You must be logged in to register a hotel so, use the bearer token:<br>
 Send `POST` request to `localhost:3000/api/v1/hotel/register-hotel`
 ```
 {
@@ -39,5 +39,5 @@ Send `POST` request to `localhost:3000/api/v1/hotel/register-hotel`
 }
 ```
 ##### To get list of hotels:
-Non logged in users can also get the list of registered hotels:
+Non logged in users can also get the list of registered hotels:<br>
 Send `GET` request to `localhost:3000/api/v1/hotel/hotels`
